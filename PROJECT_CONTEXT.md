@@ -261,3 +261,8 @@ Ask for file if needed.
 
 
 
+
+
+<!-- Backend = Render 
+Database = Neon 
+Frontend = Vercel -->

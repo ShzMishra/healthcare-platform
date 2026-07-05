@@ -27,7 +27,7 @@ async function load(){
 const res =
 await axios.get(
 
-`http://localhost:5000/api/market/providers?search=${search}`
+`https://healthcare-backend-bxwj.onrender.com/api/market/providers?search=${search}`
 
 );
 

@@ -38,7 +38,7 @@ localStorage.getItem("token");
 const res =
 await axios.get(
 
-`http://localhost:5000/api/bookings/slots/${providerId}?date=${value}`,
+`https://healthcare-backend-bxwj.onrender.com/api/bookings/slots/${providerId}?date=${value}`,
 
 {
 headers:{
@@ -133,7 +133,7 @@ localStorage.getItem("token");
 
 await axios.post(
 
-"http://localhost:5000/api/bookings/create",
+"https://healthcare-backend-bxwj.onrender.com/api/bookings/create",
 
 {
 

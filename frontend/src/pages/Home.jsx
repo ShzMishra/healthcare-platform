@@ -173,7 +173,7 @@ function Home() {
 
                   try {
                     const res = await axios.get(
-                      `http://localhost:5000/api/providers/search?query=${value}`
+                      `https://healthcare-backend-bxwj.onrender.com/api/providers/search?query=${value}`
                     );
 
                     setProviders(res.data);

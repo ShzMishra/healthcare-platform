@@ -5,7 +5,7 @@ import axios from "axios";
 function ProviderDashboard(){
 
 
-const API="http://localhost:5000/api";
+const API="https://healthcare-backend-bxwj.onrender.com/api";
 
 
 const token=localStorage.getItem("token");

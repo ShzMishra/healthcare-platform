@@ -47,7 +47,7 @@ try{
 const res =
 await axios.get(
 
-"http://localhost:5000/api/search/recent",
+"https://healthcare-backend-bxwj.onrender.com/api/search/recent",
 
 {
 headers:{
@@ -92,7 +92,7 @@ try{
 const res =
 await axios.get(
 
-"http://localhost:5000/api/search/trending",
+"https://healthcare-backend-bxwj.onrender.com/api/search/trending",
 
 {
 headers:{
@@ -137,7 +137,7 @@ localStorage.getItem("token");
 const res =
 await axios.get(
 
-"http://localhost:5000/api/bookings/patient",
+"https://healthcare-backend-bxwj.onrender.com/api/bookings/patient",
 
 {
 headers:{
@@ -198,7 +198,7 @@ try{
 const res =
 await axios.get(
 
-`http://localhost:5000/api/search?query=${value}`,
+`https://healthcare-backend-bxwj.onrender.com/api/search?query=${value}`,
 
 {
 headers:{

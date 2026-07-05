@@ -36,7 +36,7 @@ try{
 const res =
 await axios.get(
 
-`http://localhost:5000/api/market/provider/${id}`
+`https://healthcare-backend-bxwj.onrender.com/api/market/provider/${id}`
 
 );
 

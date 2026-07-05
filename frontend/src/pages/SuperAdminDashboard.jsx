@@ -20,7 +20,7 @@ localStorage.getItem("token");
 const res =
 await axios.get(
 
-"http://localhost:5000/api/providers/pending",
+"https://healthcare-backend-bxwj.onrender.com/api/providers/pending",
 
 {
 headers:{
@@ -51,7 +51,7 @@ localStorage.getItem("token");
 
 await axios.put(
 
-`http://localhost:5000/api/providers/approve/${id}`,
+`https://healthcare-backend-bxwj.onrender.com/api/providers/approve/${id}`,
 
 {},
 
@@ -83,7 +83,7 @@ localStorage.getItem("token");
 
 await axios.put(
 
-`http://localhost:5000/api/providers/reject/${id}`,
+`https://healthcare-backend-bxwj.onrender.com/api/providers/reject/${id}`,
 
 {},
 

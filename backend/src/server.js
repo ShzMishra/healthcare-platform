@@ -17,7 +17,10 @@ const app=express();
 
 
 app.use(cors({
-  origin: "*",
+  origin: [
+    "http://localhost:5173",
+    "https://healthcare-platform-ten-ruby.vercel.app"
+  ],
   credentials: true
 }));
 

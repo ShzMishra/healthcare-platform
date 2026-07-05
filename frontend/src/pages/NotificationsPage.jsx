@@ -9,7 +9,7 @@ from "axios";
 function NotificationsPage() {
 
   const API =
-  "http://localhost:5000/api";
+  "https://healthcare-backend-bxwj.onrender.com/api";
 
   const token =
   localStorage.getItem(

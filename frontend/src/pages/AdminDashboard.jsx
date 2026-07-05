@@ -27,7 +27,7 @@ setError("");
 const res =
 await axios.get(
 
-"http://localhost:5000/api/providers/pending",
+"https://healthcare-backend-bxwj.onrender.com/api/providers/pending",
 
 {
 headers:{
